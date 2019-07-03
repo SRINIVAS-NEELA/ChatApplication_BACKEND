@@ -6,6 +6,5 @@ module.exports = class MessageModel {
         this.channelId = ObjectID(channelId)
         this.createdBy = ObjectID(createdBy) 
         this.timeStamp = timeStamp
-        this.readBy = []
     }
 }
